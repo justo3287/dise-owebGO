@@ -1,0 +1,98 @@
+.cabecera {
+    position: relative;
+    left: 0;
+    height: 100px;
+    width: 100%;
+    display: block;
+    border: 1px black solid;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: rgb(23, 3, 194);
+}
+
+.imagen {
+    height: 100px;
+    width: 8%;
+    float: left;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.datos {
+    height: 100px;
+    width: 92%;
+    float: right;
+}
+
+.menu {
+    position: relative;
+    width: 100%;
+    border: 1px rgb(0, 0, 0) solid;
+    height: 40px;
+    background-color: rgb(47, 104, 228);
+}
+
+.menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu ul li a {
+    width: 300px;
+    height: 40px;
+    margin-left: 1px;
+    float: left;
+    text-align: center;
+    line-height: 40px;
+    font-size: 16px;
+    text-decoration: none;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    border: gray 1px solid;
+}
+.menu ul li a:hover {
+    color: white;
+    border: 1px black solid;
+    background-color: #2b8fe3;
+}
+.cuerpo {
+    position: relative;
+    height: 420px;
+}
+.noticias {
+    height: 420px;
+    width: 85%;
+    float: left;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.lado-derecho {
+    height: 420px;
+    width: 15%;
+    float: right;
+    text-align: center;
+    padding-top: 5px;
+    background-color: #1355e4;
+}
+
+.seccion-penultima {
+    background-color: rgb(23, 3, 194);
+    width: 100%;
+    height: 100px;
+    position: relative;
+}
+
+.pie-pagina {
+    position: relative;
+    width: 100%;
+    height: 30px;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
